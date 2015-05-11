@@ -46,7 +46,6 @@
     "Base64": "~0.3.0"
   },
   "browser": {
-    "./lib/node/index.js": "./lib/client.js",
     "emitter": "component-emitter",
     "reduce": "reduce-component",
     "./test/support/server.js": "./test/support/blank.js"
@@ -56,7 +55,7 @@
       "superagent": "lib/client.js"
     }
   },
-  "main": "./lib/node/index.js",
+  "main": "./lib/index.js",
   "engines": {
     "node": ">= 0.8"
   }
